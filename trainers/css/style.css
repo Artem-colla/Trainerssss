@@ -1,0 +1,256 @@
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/Metropolis-Medium.eot');
+    src: url('../fonts/Metropolis-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Metropolis-Medium.woff2') format('woff2'),
+    url('../fonts/Metropolis-Medium.woff') format('woff'),
+    url('../fonts/Metropolis-Medium.ttf') format('truetype'),
+    url('../fonts/Metropolis-Medium.svg#Metropolis-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+*{
+    padding:0;
+    margin:0;
+}
+header{
+     background-color: rgba(0, 0, 0, 0.65);
+    padding-bottom: 8px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    align-items: center;
+    border-bottom: 1px #464646 solid;
+    padding: 34px 0 22px 0;
+    margin: auto auto 22px;
+}
+
+header form{
+    width: 208px;
+    height: 42px;
+    border-radius: 5px;
+    background-color: #ebebeb;
+    display: flex;
+    justify-content: space-between;
+}
+header form input{
+    border:none;
+    height:42px;
+    line-height: 42px;
+    width:75%;
+    color:#959595;
+    font-size:15px;
+    text-transform: uppercase;
+    background-color: transparent;
+    padding-left: 10px;
+}
+header form input:focus{
+    outline:none;
+}
+header form button{
+    border: none;
+    box-shadow: none;
+    line-height: 42px;
+    background-color:transparent;
+    text-align: center;
+    width:23%;
+}
+header form button i{
+    color:red;
+}
+.search{
+    padding: 15px 4px 15px 18px;
+    font-family: 'Metropolis', serif;
+    border-radius: 2px;
+    border:none;
+}
+.online_store{
+    background-color: #252525;
+    color:white;
+    border-radius: 2px;
+    padding: 15px 13px 15px 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Metropolis', serif;
+    display: inline-block;
+}
+.log_in{
+    background-color:#464646;
+    color:white;
+    padding: 15px 45px 15px 45px;
+    font-family: 'Metropolis', serif;
+    border-radius: 2px;
+    text-decoration: none;
+}
+.sign_up{
+    background-color: #fa090a;
+    padding: 15px 13px 15px 13px;
+    border-radius: 2px;
+    font-family: 'Metropolis', serif;
+    color:white;
+    text-decoration: none;
+}
+.second_container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    margin:auto;
+}
+.first_site{
+    text-transform: uppercase;
+    color:white;
+}
+.menu{
+    font-size: 23px;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+    color:white;
+    margin-right: 30px;
+    display: inline-block;
+}
+
+.workouts:after{
+    display: inline-block;
+    content: "";
+    background-color: transparent;
+    height:3px;
+    width:100%;
+    margin-top:10px;
+    transition:0.3s;
+}
+.workouts:hover:after{
+    background-color: #ff0000;
+    width:100%;
+}
+.nutrition:after{
+    display: inline-block;
+    content: "";
+    background-color: transparent;
+    height:3px;
+    width:100%;
+    margin-top:10px;
+    transition:0.3s;
+}
+.nutrition:hover:after{
+    background-color: #ff0000;
+    width:100%;
+}
+.our_trainers:after{
+    display: inline-block;
+    content: "";
+    background-color: transparent;
+    height:3px;
+    width:100%;
+    margin-top:10px;
+    transition:0.3s;
+}
+.our_trainers:hover:after{
+    background-color: #ff0000;
+    width:100%;
+}
+.competition_prep:after{
+    display: inline-block;
+    content: "";
+    background-color: transparent;
+    height:3px;
+    width:100%;
+    margin-top:10px;
+    transition:0.3s;
+}
+.competition_prep:hover:after{
+    background-color: #ff0000;
+    width:100%;
+}
+.training_programs:after{
+    display: inline-block;
+    content: "";
+    background-color: transparent;
+    height:3px;
+    width:100%;
+    margin-top:10px;
+    transition:0.3s;
+}
+.training_programs:hover:after{
+    background-color: #ff0000;
+    width:100%;
+}
+.success_stories:after{
+    display: inline-block;
+    content: "";
+    background-color: transparent;
+    height:3px;
+    width:100%;
+    margin-top:10px;
+    transition:0.3s;
+}
+.success_stories:hover:after{
+    background-color: #ff0000;
+    width:100%;
+}
+.e_books:after{
+    display: inline-block;
+    content: "";
+    background-color: transparent;
+    height:3px;
+    width:100%;
+    margin-top:10px;
+    transition:0.3s;
+}
+.e_books:hover:after{
+    background-color: #ff0000;
+    width:100%;
+}
+.fa-facebook-square{
+    color: #fa090a;
+    font-size: 30px;
+    margin-left: 16px;
+
+}
+.fa-instagram-square{
+    color: #fa090a;
+    font-size: 30px;
+    margin-left: 16px;
+
+}
+.fa-twitter-square{
+    color: #fa090a;
+    font-size: 30px;
+    margin-left: 16px;
+
+}
+.fa-youtube-square{
+    color: #fa090a;
+    font-size: 30px;
+    margin-left: 16px;
+}
+.email_section{
+    background-color:#010006;
+    color:white;
+    text-align: center;
+    padding-top: 75px;
+    font-family: 'Metropolis', serif;
+padding-bottom: 53px;
+}
+.under_text{
+    max-width: 734px;
+    justify-content: space-between;
+    margin: auto;
+    display: inline-block;
+    color:white;
+    border:none;
+    border-radius: 3px;
+}
+.email_input{
+    padding: 12px 185px 12px 40px;
+}
+.subscribe{
+    background-color:#ff0000;
+    padding: 15px 85px;
+    margin-left: 30px;
+}
+.text_info{
+    margin-bottom:30px;
+}
